@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;600;700&family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;600;700&family=Ubuntu:ital,wght@1,300&family=Ysabeau:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;600;700&family=Quicksand:wght@300&family=Ubuntu:ital,wght@1,300&family=Ysabeau:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(189, 187, 187);
+    width: 25vw;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+.sidebar nav{
+    padding: 32px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 37px;
+    font-size: 20px;
+    
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Hind', sans-serif; 
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* font-family: 'Hind', sans-serif;  */
+    /* font-family: 'Ubuntu', sans-serif;  */
+    /* font-family: 'Ysabeau', sans-serif; */
+}
+.infocontainer{
+    /* background-color: pink; */
+    height: 60vh;
+    width: 80vw;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devimg img{
+    position: relative;
+    height: 55vh;
+    width: 200px;
+}
+/* button{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+
+} */
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 55px;
+    font-family: 'Quicksand', sans-serif;
+    /* color: rgb(73, 68, 68); */
+    
+}
+.about{
+    font-size: 32px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.name{
+    font-size: 60px;
+    font-family: 'Hind', sans-serif; 
+}
+.moreabout{
+    font-size: 19px;
+    font-family: 'Hind', sans-serif; 
+    margin-top: 10px;
+}
+.buttons{
+    margin-top: 35px;
+}
+.buttons button{
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 10px;
+    color: white;
+    border: 0px;
+    border-radius: 83px 83px;
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.buttons button:hover{
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    /* border: 30px; */
+    border-radius: 83px 83px;
+    background-color: rgb(19, 133, 179);
+    cursor: pointer;
+}
+
+/* Contact Form  */
+
+.contactform{
+
+    font-family: 'Hind', sans-serif; 
+    font-size: 30px;
+    /* padding-top: 10px; */
+    margin: 50px;
+    border: 2px solid black;
+}
+.main h1{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+.contactform form div{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    padding: 5px;
+    width: 20vw;
+    border-radius: 12px;
+    margin: 0px 0px 0px 0px;
+}
+#emailHelp{
+    font-size: 15px;
+    color: darkblue;
+    margin: -8px -14px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 25px;
+    margin: 7px;
+    border-radius: 5px;
+}
+.btn{
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 10px;
+    color: white;
+    border: 0px;
+    border-radius: 83px 83px;
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.btn:hover{
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    /* border: 30px; */
+    border-radius: 83px 83px;
+    background-color: rgb(19, 133, 179);
+    cursor: pointer;
+}
+
+/* Blog  Form */
+
+.blogcontainer{
+    /* margin:10px 40px; */
+    padding: 10px;
+}
+.blogitem{
+    margin:1px 20px;
+}
+.blogitem h2{
+    /* margin: 5px; */
+    padding: 5px;
+    font-family: 'Hind', sans-serif; 
+}
+.blogitem p{
+    /* margin: 5px; */
+    padding: 5px;
+    font-family: 'Hind', sans-serif; 
+}
+.buttons-b button{
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 10px;
+    color: white;
+    border: 0px;
+    border-radius: 83px 83px;
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.buttons-b button:hover{
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    /* border: 30px; */
+    border-radius: 83px 83px;
+    background-color: rgb(19, 133, 179);
+    cursor: pointer;
+}
+
+/* intro css  */
+.intro h2{
+    margin: 10px;
+    padding: 5px;
+    
+}
+.intro p{
+    padding: 5px;
+    margin: 0px 15px;
+    font-family: 'Hind', sans-serif; 
+    font-weight:400;
+}
+.skillbox{
+    border: 1px solid black;
+    width: 210px;
+    height: 145px;
+    margin: 5px 15px;
+    padding: 15px;
+}
+.skillitem li{
+    list-style: none;
+    padding: 2px;
+    
+}
+.skillper{
+    border: 1px black;
+    width: 200px;
+    height: 5px;
+    background-color: red;
+}
+.hundred{
+    width: 200px;
+    border: 1px solid black;
+    background-color: rgb(76, 193, 240);
+}
+.p75{
+    width: 150px;
+    border: 1px solid black;
+    background-color: rgb(245, 245, 76);
+}
+.p50{
+    width: 100px;
+    border: 1px solid black;
+    background-color: rgb(245, 76, 76);
+}
